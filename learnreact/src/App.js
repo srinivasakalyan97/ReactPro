@@ -3,6 +3,7 @@ import './App.css';
 import Greetings from './classBased';
 import Greet from './functionBased';
 import Withoutjsx from './jsxExample';
+import Stateinfo from './stateinfo'
 
 class App extends Component {
   render(){
@@ -17,6 +18,7 @@ class App extends Component {
       <Greetings />
       <Greet />
       <Withoutjsx />
+      <Stateinfo />
 
     </div>
   );
