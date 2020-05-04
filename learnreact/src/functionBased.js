@@ -1,7 +1,11 @@
 import React from 'react';
 
-function Greet(){
-    return <h1>Function Based Component</h1>
-}
+const Greet= (props)=>{
+    return (
+    <div>
+        <h1>Function Based Component {props.name}, {props.value}</h1>
+    </div>
+    )
+    }
 
 export default Greet

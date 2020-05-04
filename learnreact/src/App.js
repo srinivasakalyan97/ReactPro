@@ -8,8 +8,8 @@ class App extends Component {
   render(){
   return (  
     <div className="App">
-      <Greetings />
-      <Greet />
+      <Greetings name="PAssING pRoPs class based" value="SUCCESS"/>
+      <Greet name="PAssING pRoPs function based" value="SUCCESS" />
       <Withoutjsx />
 
     </div>
