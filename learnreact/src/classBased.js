@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 
 class Greetings extends Component {
     render(){
+        const {name , value} = this.props //Destructuring props
     return (
     <div>
-    <h1>Class Based Component {this.props.name}, {this.props.value}</h1>
+    <h1>Class Based Component {name}, {value}</h1>
     {this.props.children}
     </div>
     )}
