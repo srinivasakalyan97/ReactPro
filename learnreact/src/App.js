@@ -5,7 +5,8 @@ import './App.css';
 // import Withoutjsx from './jsxExample';
 // import Stateinfo from './stateinfo'
 // import Counter from './components/counter';
-import EventBindFourmethods from './components/eventBindFourmethods';
+// import EventBindFourmethods from './components/eventBindFourmethods';
+import ParentComponentC from './components/ParentComponentC';
 
 class App extends Component {
   render(){
@@ -20,7 +21,8 @@ class App extends Component {
       <Withoutjsx />
       <Stateinfo />
       <Counter /> */}
-      <EventBindFourmethods />
+      {/* <EventBindFourmethods /> */}
+      <ParentComponentC />
     </div>
   );
 }
