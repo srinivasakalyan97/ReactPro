@@ -18,7 +18,7 @@ export default function ListRendering() {
 			skill: 'Ruby'
 		}
 	];
-
+    //key is to be passed
 	const result = emp.map(x => <RecieveList key={x.skill} xas={x} />);
 	return <div>{result}</div>;
 }
