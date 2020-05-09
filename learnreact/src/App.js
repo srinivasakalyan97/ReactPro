@@ -6,8 +6,9 @@ import './App.css';
 // import Stateinfo from './stateinfo'
 // import Counter from './components/counter';
 // import EventBindFourmethods from './components/eventBindFourmethods';
-import ParentComponentC from './components/ParentComponentC';
-
+// import ParentComponentC from './components/ParentComponentC';
+import ListRendering from './components/ListRender/ListRendering';
+// import RecieveList from './components/ListRender/RecieveList'
 class App extends Component {
   render(){
   return (  
@@ -22,7 +23,9 @@ class App extends Component {
       <Stateinfo />
       <Counter /> */}
       {/* <EventBindFourmethods /> */}
-      <ParentComponentC />
+      {/* <ParentComponentC /> */}
+      <ListRendering />
+      {/* <RecieveList  /> */}
     </div>
   );
 }
