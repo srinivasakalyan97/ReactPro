@@ -19,6 +19,6 @@ export default function ListRendering() {
 		}
 	];
 
-	const result = emp.map(x => <RecieveList xas={x} />);
+	const result = emp.map(x => <RecieveList key={x.skill} xas={x} />);
 	return <div>{result}</div>;
 }
