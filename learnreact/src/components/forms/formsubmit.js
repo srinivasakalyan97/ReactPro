@@ -31,12 +31,13 @@ export class formsubmit extends Component {
     }
 
     render() {
+        const {car, textaresacomment, inputemail} = this.state
         return (
             <form onSubmit={this.formsubmitted}>
             <div>
                 <h1>Form</h1>
         <label>Select a car{this.state.car}</label>&nbsp;
-                <select id="selectCar" required value={this.state.car} onChange={this.HandleSelect}>
+                <select id="selectCar" required value={car} onChange={this.HandleSelect}>
         <option defaultValue disabled>Select a car</option>
                 
                     <option value="carAudi">Audi</option>
@@ -45,11 +46,11 @@ export class formsubmit extends Component {
                     <option value="carLamborgini">Lamborgini</option>
                 </select><br></br>
                 <label>Comments</label>
-                <textarea required id="commentsText" onChange={this.handleTextComment} value={this.state.textaresacomment}></textarea>
+                <textarea required id="commentsText" onChange={this.handleTextComment} value={textaresacomment}></textarea>
                 <p>Entered comment{this.state.textaresacomment}</p>
         <p>Entered name:{this.state.inputemail}</p>
                 <label>Name:
-                    <input required type="text" name="name" value={this.state.inputemail} onChange={this.handleinputtext} />
+                    <input required type="text" name="name" value={inputemail} onChange={this.handleinputtext} />
                 </label>
             </div>
             <button type="submit">submit</button>
