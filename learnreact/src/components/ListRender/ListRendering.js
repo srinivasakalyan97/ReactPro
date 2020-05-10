@@ -1,6 +1,7 @@
 import React from 'react';
 import RecieveList from './RecieveList';
 export default function ListRendering() {
+    const names = ["sathya","nithya","agneya","dhruv"]
 	const emp = [
 		{
 			emp: 'Sanjay',
@@ -19,6 +20,7 @@ export default function ListRendering() {
 		}
 	];
     //key is to be passed
-	const result = emp.map(x => <RecieveList key={x.skill} xas={x} />);
+    // const result = emp.map(x => <RecieveList key={x.skill} xas={x} />);
+    const result = names.map((x,index) => <RecieveList key={index} xas={x}/>)
 	return <div>{result}</div>;
 }

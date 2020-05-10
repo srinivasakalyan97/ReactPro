@@ -7,8 +7,9 @@ import './App.css';
 // import Counter from './components/counter';
 // import EventBindFourmethods from './components/eventBindFourmethods';
 // import ParentComponentC from './components/ParentComponentC';
-import ListRendering from './components/ListRender/ListRendering';
-// import RecieveList from './components/ListRender/RecieveList'
+// import ListRendering from './components/ListRender/ListRendering';
+// import RecieveList from './components/ListRender/RecieveList';
+import Formsubmit from './components/forms/formsubmit';
 class App extends Component {
   render(){
   return (  
@@ -24,8 +25,9 @@ class App extends Component {
       <Counter /> */}
       {/* <EventBindFourmethods /> */}
       {/* <ParentComponentC /> */}
-      <ListRendering />
+      {/* <ListRendering /> */}
       {/* <RecieveList  /> */}
+      <Formsubmit />
     </div>
   );
 }
