@@ -6,9 +6,9 @@ class RegComp extends Component {
     render() {
         console.log("reg",this.props.message);
         return (
-            <div>
+            <React.Fragment>
                 <p>reg comp {this.props.message}</p>
-            </div>
+            </React.Fragment>
         )
     }
 }

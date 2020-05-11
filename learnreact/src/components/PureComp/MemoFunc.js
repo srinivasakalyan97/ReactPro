@@ -3,9 +3,9 @@ import React from 'react'
  function MemoFunc({message}) {
     console.log("memo",message);
     return (
-        <div>
+        <React.Fragment>
             <p>{message}</p>
-        </div>
+        </React.Fragment>
     )
 }
 

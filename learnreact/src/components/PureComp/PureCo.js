@@ -4,9 +4,9 @@ export class PureCo extends PureComponent {
     render() {
         console.log("pure",this.props.message);
         return (
-            <div>
+            <React.Fragment>
                 <p>{this.props.message}</p>
-            </div>
+            </React.Fragment>
         )
     }
 }
