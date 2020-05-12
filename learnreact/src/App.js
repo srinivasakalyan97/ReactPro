@@ -10,7 +10,9 @@ import './App.css';
 // import ListRendering from './components/ListRender/ListRendering';
 // import RecieveList from './components/ListRender/RecieveList';
 // import Formsubmit from './components/forms/formsubmit';
-import ParentFilePure from './components/PureComp/ParentFilePure'
+// import ParentFilePure from './components/PureComp/ParentFilePure';
+// import CreateRef from './components/Refs/createRef';
+import ParentRef from './components/Refs/ParentRef';
 class App extends Component {
   render(){
   return (  
@@ -29,7 +31,9 @@ class App extends Component {
       {/* <ListRendering /> */}
       {/* <RecieveList  /> */}
       {/* <Formsubmit /> */}
-      <ParentFilePure />
+      {/* <ParentFilePure /> */}
+      {/* <CreateRef /> */}
+      <ParentRef />
     </div>
   );
 }
