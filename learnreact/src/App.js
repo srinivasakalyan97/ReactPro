@@ -33,7 +33,7 @@ class App extends Component {
       {/* <Formsubmit /> */}
       {/* <ParentFilePure /> */}
       {/* <CreateRef /> */}
-      <ParentRef />
+      {/* <ParentRef /> */}
     </div>
   );
 }
